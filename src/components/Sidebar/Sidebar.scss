@@ -1,0 +1,26 @@
+.Sidebar {
+    // #607357 vakjes
+    background-color: #9aa480;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__Container {
+        margin: 3rem;
+        padding: 3rem;
+        padding-left: 2.75rem;
+        padding-top: 2.75rem;
+        background-color: #607357;
+        width: 100%;
+        height: 25%;
+    }
+
+    &__Img {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 6px solid white;
+    }
+}
