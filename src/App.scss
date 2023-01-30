@@ -1,16 +1,17 @@
 .App {
-    display: grid;
-    grid-template-columns: 1fr 100%;
-
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
+        display: grid;
         grid-template-columns: 1fr 75%; 
     }
 
     &__Left {
-        @media only screen and (min-width: 1024px) {
+        display: none;
+
+        @media only screen and (min-width: 1440px) {
             padding-left: 2rem;
             padding-right: 2rem;
             height: auto;
+            display: block;
         }
     }
 
