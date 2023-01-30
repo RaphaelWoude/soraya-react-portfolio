@@ -13,7 +13,7 @@ function Header() {
           <li className="Header__Item"><Link className="Header__Anchor" to="">Home</Link></li>
           <li className="Header__Item"><Link className="Header__Anchor" to="about">About me</Link></li>
           <li className="Header__Item"><Link className="Header__Anchor" to="portfolio">Portfolio</Link></li>
-          <li className="Header__Item"><Link className="Header__Anchor" to="contact">Contact</Link></li>
+          {/* <li className="Header__Item"><Link className="Header__Anchor" to="contact">Contact</Link></li> */}
         </ul>
       </div>
     </div>
