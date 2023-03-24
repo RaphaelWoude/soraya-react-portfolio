@@ -13,7 +13,7 @@
         margin-bottom: 4rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 20rem;
+        grid-auto-rows: 25rem;
         gap: 1rem;
         width: 100%;
 
@@ -24,5 +24,20 @@
 
     &__Column {
         border: 1px solid black;
+    }
+
+    &__Picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__Img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        &--Contain {
+            object-fit: contain;
+        }
     }
 }

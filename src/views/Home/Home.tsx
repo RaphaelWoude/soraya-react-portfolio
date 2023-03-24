@@ -1,4 +1,8 @@
 import './Home.scss'
+import Block1 from '../../assets/block1.png';
+import Block2 from '../../assets/block2.png';
+import Block3 from '../../assets/block3.jpg';
+import Logo from '../../assets/logo.png';
 
 function Home() {
     return (
@@ -10,22 +14,22 @@ function Home() {
             <div className="Home__Row">
                 <div className="Home__Column">
                     <div className="Home__Picture">
-                        {/* <img className="Home__Img" src="" alt="" /> */}
+                        <img className="Home__Img" src={Block1} alt="" />
                     </div>
                 </div>
                 <div className="Home__Column">
                     <div className="Home__Picture">
-                        {/* <img className="Home__Img" src="" alt="" /> */}
+                        <img className="Home__Img" src={Block2} alt="" />
                     </div>
                 </div>
                 <div className="Home__Column">
                     <div className="Home__Picture">
-                        {/* <img className="Home__Img" src="" alt="" /> */}
+                        <img className="Home__Img Home__Img--Contain" src={Block3} alt="" />
                     </div>
                 </div>
                 <div className="Home__Column">
                     <div className="Home__Picture">
-                        {/* <img className="Home__Img" src="" alt="" /> */}
+                        <img className="Home__Img Home__Img--Contain" src={Logo} alt="" />
                     </div>
                 </div>
             </div>

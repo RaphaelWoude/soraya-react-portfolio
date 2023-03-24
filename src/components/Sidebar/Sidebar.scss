@@ -2,8 +2,42 @@
     background-color: #9aa480;
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    @media only screen and (min-width: 2000px) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    &__Top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: baseline;
+    }
+
+    &__Oval {
+        margin: 3rem;
+        margin-bottom: 0rem;
+        width: 100%;
+        height: 256px;
+        background-color: #607357;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    &__Block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+        margin-top: 0rem;
+        width: 100%;
+        height: 64px;
+        background-color: #607357;
+    }
 
     &__Container {
         margin: 3rem;
@@ -12,7 +46,7 @@
         padding-top: 2.75rem;
         background-color: #607357;
         width: 100%;
-        height: 25%;
+        height: 512px;
     }
 
     &__Img {
@@ -21,5 +55,10 @@
         height: 100%;
         object-fit: cover;
         border: 6px solid white;
+    }
+
+    &__Text {
+        color: white;
+        margin: 0;
     }
 }
