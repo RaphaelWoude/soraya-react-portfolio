@@ -1,5 +1,9 @@
 import './Portfolio.scss'
 import Block1 from '../../assets/block1.png';
+import Block4 from '../../assets/block4.png';
+import Block5 from '../../assets/block5.png';
+import Block6 from '../../assets/block6.jpg';
+import Block7 from '../../assets/block7.jpg';
 
 function Portfolio() {
     return (
@@ -11,7 +15,7 @@ function Portfolio() {
                 <div className="Portfolio__Column">
                     <h2 className="Portfolio__Text">Illustraties</h2>
                     <div className="Portfolio__Picture">
-                        {/* <img className="Portfolio__Img" src="" alt="" /> */}
+                        <img className="Portfolio__Img" src={Block6} alt="" />
                     </div>
                 </div>
                 <div className="Portfolio__Column">
@@ -23,23 +27,23 @@ function Portfolio() {
                 <div className="Portfolio__Column">
                     <h2 className="Portfolio__Text">Magazines | Flyers/visitekaartjes</h2>
                     <div className="Portfolio__Picture">
-                        {/* <img className="Portfolio__Img" src="" alt="" /> */}
+                        <img className="Portfolio__Img" src={Block4} alt="" />
                     </div>
                 </div>
                 <div className="Portfolio__Column">
                     <h2 className="Portfolio__Text">3D-Artwork</h2>
                     <div className="Portfolio__Picture">
-                        {/* <img className="Portfolio__Img" src="" alt="" /> */}
+                        <img className="Portfolio__Img" src={Block7} alt="" />
                     </div>
                 </div>
                 <div className="Portfolio__Column">
                     <h2 className="Portfolio__Text">Photoshop</h2>
                     <div className="Portfolio__Picture">
-                        {/* <img className="Portfolio__Img" src="" alt="" /> */}
+                        <img className="Portfolio__Img" src={Block5} alt="" />
                     </div>
                 </div>
                 <div className="Portfolio__Column">
-                    <h2 className="Portfolio__Text Portfolio__Text--White">ProCreate</h2>
+                    <h2 className="Portfolio__Text">ProCreate</h2>
                     <div className="Portfolio__Picture">
                         <img className="Portfolio__Img" src={Block1} alt="" />
                     </div>
