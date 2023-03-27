@@ -5,10 +5,11 @@ import Home from './views/Home/Home'
 import About from './views/About/About'
 import Portfolio from './views/Portfolio/Portfolio'
 import Contact from './views/Contact/Contact'
-
-import { Routes, Route } from "react-router-dom"
 import Footer from './components/Footer/Footer'
 import Picture from './views/Picture/Picture'
+import Info from './views/Info/Info'
+
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path="contact" element={ <Contact/> } />
               <Route path="portfolio" element={ <Portfolio/> } />
               <Route path="picture/:id" element={ <Picture/> } />
+              <Route path="info/:id" element={ <Info/> } />
             </Routes>
           </div>
         </div>
